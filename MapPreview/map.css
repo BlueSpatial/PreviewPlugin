@@ -1,0 +1,141 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+html, body, #mainWindow {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #FFF;
+    overflow: hidden;
+    font-family: "Trebuchet MS";
+}
+
+#map {
+    position:relative;
+    height:100%!important;
+    border: solid 2px #808775;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 0px;
+}
+
+#titlePane {
+    width: 280px;
+}
+
+.right-widget {
+    position: absolute;
+    right: 20px;
+}
+
+#snapGuideline {
+    font-size: smaller;
+    padding: 5px 5px;
+}
+
+#locateButton {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    z-index: 50;
+}
+
+/*Layer list*/
+
+
+.esriLayer {
+    background-color: #fff;
+}
+
+.esriLayerList .esriList {
+    border-top: none;
+}
+
+.esriLayerList .esriTitle {
+    background-color: #fff;
+    border-bottom: none;
+}
+
+.esriLayerList .esriList ul {
+    background-color: #fff;
+}
+/*Layer list*/
+
+#homeButton {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    z-index: 50;
+}
+
+#search {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    top: 20px;
+    left: 60px;
+}
+
+#rightPane {
+    width: 20%;
+}
+
+#legendPane {
+    border: solid #97DCF2 1px;
+}
+#editorDiv .dojoxGridMasterMessages{
+    display:none;
+}
+#homeButton{
+    display:none!important;
+}
+
+.dijitAlignTrailing {
+    display: none !important; /*feature table backdrop*/
+}
+/*hide editor*/
+body.no-editor #templatePickerPane{
+    display: none !important;
+}
+
+body.no-editor #dijit_layout_ContentPane_0 {
+    width: calc(100% - 20px)!important;
+    left: 0!important;
+}
+body.no-editor #map {
+    width: 100% !important;
+}
+/*hide editor*/
+
